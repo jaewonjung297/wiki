@@ -22,14 +22,14 @@ export default function Finance() {
             </p>
             <h4 className='my-5 text-xl'>The Stock Market</h4>
             <p>
-              When a company 'goes public', they allow the public to own shares in the company. Shareholders gain benefits such as dividends or additional information about the company.
+              When a company goes public, they allow the public to own shares in the company. Shareholders gain benefits such as dividends or additional information about the company.
               More importantly, the shares have value, which fluctuate based on the company finances and speculation. When a company goes public, their shares are available on public exchanges, such as the NYSE or NASDAQ.
               The process of releasing their newly public stocks is called an IPO, or Initial Public Offering. Generally, IPOs are good buying opportunities. The prices of a newly offered stock
               fluctuate heavily.
             </p>
             <h4 className='my-5 text-xl'>Dividends</h4>
             <p>
-              Some companies offer dividends to their shareholders. Dividends are small amounts of cash given to shareholders, quarterly, monthly, or semiannually, paid based on the company's financial health. 
+              Some companies offer dividends to their shareholders. Dividends are small amounts of cash given to shareholders, quarterly, monthly, or semiannually, paid based on the company&apos;s financial health. 
               The most common strategy with dividends is just to reinvest back in the stock. Some companies that offer high dividend rates are AT&T, Verizon, and Coca-Cola.
               <br/> <br/>
               The Dividend Discount Model (GGM) is a useful formula to determine the intrinsic value of a stock based on its dividend payments. This model requires g, the growth rate of dividends,
@@ -37,7 +37,7 @@ export default function Finance() {
             </p>
             <BlockMath math="P = \frac{D_0 \times (1 + g)}{r - g}" />
             <h4 className='my-5 text-xl'>Options</h4>
-            
+
         </div>
     </div>
   )

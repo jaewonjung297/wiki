@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <div className="logo">
-          Jaewon's Wiki
+          Jaewon&apos;s Wiki
         </div>
         <div className="nav-elements active">
           <ul>
