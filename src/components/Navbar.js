@@ -1,4 +1,4 @@
-import Link from 'next/link'; // Import Link from Next.js
+import Link from 'next/link';
 import './navbar.css';
 
 const Navbar = () => {
@@ -7,7 +7,9 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <div className="logo">
+        <Link href = "/">
           Jaewon&apos;s Wiki
+        </Link>  
         </div>
         <div className="nav-elements active">
           <ul>

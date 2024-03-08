@@ -1,14 +1,12 @@
 "use client"
 import React from 'react'
-import Navbar from '@/components/Navbar'
 import 'katex/dist/katex.min.css';
 import { BlockMath } from 'react-katex';
 
 export default function Finance() {
   return (
     <div>
-        <Navbar />
-        <div className='mx-10'>
+        <div className='mx-auto max-w-4xl'>
             <div className='my-10 text-4xl'>Finance</div>
             <p>
                 Finance spans many different sub-topics.It is defined as the management of money and includes activities such as investing, borrowing, lending, budgeting, saving, and forecasting.
@@ -37,7 +35,9 @@ export default function Finance() {
             </p>
             <BlockMath math="P = \frac{D_0 \times (1 + g)}{r - g}" />
             <h4 className='my-5 text-xl'>Options</h4>
-
+            <p>
+              Options are 
+            </p>
         </div>
     </div>
   )
