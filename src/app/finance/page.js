@@ -36,7 +36,10 @@ export default function Finance() {
             <BlockMath math="P = \frac{D_0 \times (1 + g)}{r - g}" />
             <h4 className='my-5 text-xl'>Options</h4>
             <p>
-              Options are 
+              Options are contracts that give the owner the right to sell or buy an asset at a certain "strike" price.
+              <br/><br/>
+              There are two types of options. Calls give the owner the right to buy an asset at a certain price and puts give the owner the right to sell an asset at a certain price. When combined with
+              correct speculation, options can be used to make lots of profit. 
             </p>
         </div>
     </div>
